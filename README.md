@@ -16,20 +16,20 @@ To upgrade when a new version is released:
 brew upgrade edgectl
 ```
 
-🔎 Verify Installation
+## 🔎 Verify Installation
 
 After installation, you can verify it’s working:
 ```
 edgectl --version
 ```
 
-🧼 Uninstall
+## 🧼 Uninstall
 
 ```bash
 brew uninstall edgectl
 ```
 
-📦 About edgectl
+## 📦 About edgectl
 
 edgectl is a CLI tool developed to simplify automation and management of edge computing workloads and cloud-native infrastructure.
 
