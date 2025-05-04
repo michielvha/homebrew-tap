@@ -1,4 +1,4 @@
-# 🧪 MichielVHA Homebrew Tap
+# 🧪 Homebrew Tap
 
 This is the official Homebrew tap for all my projects, currently hosting:
 - [`edgectl`](https://github.com/michielvha/edgectl): a lightweight CLI tool for managing edge cloud environments.
