@@ -5,21 +5,21 @@
 class Edgectl < Formula
   desc "A CLI for edge-cloud"
   homepage "https://github.com/michielvha/edgectl"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/michielvha/edgectl/releases/download/0.3.4/edgectl_0.3.4_darwin_amd64.zip"
-      sha256 "03252379bae15bd0f45013259582efc7ddffdccf9fad5c5dc7edd8575244cfe4"
+      url "https://github.com/michielvha/edgectl/releases/download/0.3.5/edgectl_0.3.5_darwin_amd64.zip"
+      sha256 "665bf51f1d99bc7675f7082281fae395a12abf549645a486d855ceee3c34b492"
 
       def install
         bin.install "edgectl"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/michielvha/edgectl/releases/download/0.3.4/edgectl_0.3.4_darwin_arm64.zip"
-      sha256 "03252379bae15bd0f45013259582efc7ddffdccf9fad5c5dc7edd8575244cfe4"
+      url "https://github.com/michielvha/edgectl/releases/download/0.3.5/edgectl_0.3.5_darwin_arm64.zip"
+      sha256 "665bf51f1d99bc7675f7082281fae395a12abf549645a486d855ceee3c34b492"
 
       def install
         bin.install "edgectl"
@@ -29,15 +29,15 @@ class Edgectl < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/michielvha/edgectl/releases/download/0.3.4/edgectl_0.3.4_linux_amd64.zip"
-      sha256 "03252379bae15bd0f45013259582efc7ddffdccf9fad5c5dc7edd8575244cfe4"
+      url "https://github.com/michielvha/edgectl/releases/download/0.3.5/edgectl_0.3.5_linux_amd64.zip"
+      sha256 "665bf51f1d99bc7675f7082281fae395a12abf549645a486d855ceee3c34b492"
       def install
         bin.install "edgectl"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/michielvha/edgectl/releases/download/0.3.4/edgectl_0.3.4_linux_arm64.zip"
-      sha256 "03252379bae15bd0f45013259582efc7ddffdccf9fad5c5dc7edd8575244cfe4"
+      url "https://github.com/michielvha/edgectl/releases/download/0.3.5/edgectl_0.3.5_linux_arm64.zip"
+      sha256 "665bf51f1d99bc7675f7082281fae395a12abf549645a486d855ceee3c34b492"
       def install
         bin.install "edgectl"
       end
